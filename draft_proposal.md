@@ -4,10 +4,13 @@
 
 
 
-### INTRODUCTION
+## INTRODUCTION
 This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I will utilize Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 771145 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset was cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
 
-### Dataset Insights
+## Abstract
+  I chose "REPORT TYPE" as my target column. There are three classes are represented in the target variable: "Property Damage Crash," "Injury Crash," and "Fatal Crash." To minimize a conflict with multiple classes, those three classes are reduced into two by altering Fatal Crash into Injury Crash. This is likewise done for the alternative explanation that Fatal Crash corresponds to accidents that result in death, being a subclass of an Injury crash. As more than just a result, the final target variable only has two classes.
+  
+## Dataset Insights
 The dataset is considered from Maryland open information. 
 Dataset Link
 https://opendata.maryland.gov/widgets/65du-s3qu
@@ -129,18 +132,18 @@ LOCATION - combination of latitude and longitude points.
 In these columns, there are only null values in 3 columns('MUNI_DESC','RTE_SUFFIX','REFERENCE_SUFFIX) and unknown values in AREA_CODE column. Hence dropped these columns.
 There are some columns that exactly represents other columns numerically. Hence those columns are dropped from the data frame. Because with those numerical columns separately, we neither understand anything nor any insights from those columns.
 
-### I will be addressing the below points in my analysis:
+## I will be addressing the below points in my analysis:
 1.	Does Property Damage Crash is the most common report type among all accidents?
 2.	In which month, most accidents happened in?
 3.	At what time, most accidents happened in?
 
-### Implementation of Machine Learning Models:
+## Implementation of Machine Learning Models:
 1.	Logistic regression
 2.	 Random Forest
 3.	 Decision Tree
 
-### Expected Outcome:
+## Expected Outcome:
  Predictions can help insurance agencies to work on respective cases based on type of accidents. 
  
-### References:
-Maryland Statewide Vehicle Crashes | Open Data | opendata.maryland.gov
+## References:
+Maryland Statewide Vehicle Crashes | Open Data | [opendata.maryland.gov](url)
