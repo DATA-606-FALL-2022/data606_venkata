@@ -1,20 +1,21 @@
-### Project Proposal (Data606)
-### Maryland Statewide Vehicle Crashes
-### Name: Venkata Satya Praneeth
+# Project Proposal (Data606)
+# Maryland Statewide Vehicle Crashes
+## Name: Venkata Satya Praneeth
 
 
 
 ## INTRODUCTION
-This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I will utilize Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 771145 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset was cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
+- This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I will utilize Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 771145 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset was cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
 
 ## Abstract
-  I chose "REPORT TYPE" as my target column. There are three classes are represented in the target variable: "Property Damage Crash," "Injury Crash," and "Fatal Crash." To minimize a conflict with multiple classes, those three classes are reduced into two by altering Fatal Crash into Injury Crash. This is likewise done for the alternative explanation that Fatal Crash corresponds to accidents that result in death, being a subclass of an Injury crash. As more than just a result, the final target variable only has two classes.
+- I chose "REPORT TYPE" as my target column. There are three classes are represented in the target variable: "Property Damage Crash," "Injury Crash," and "Fatal Crash." To minimize a conflict with multiple classes, those three classes are reduced into two by altering Fatal Crash into Injury Crash. This is likewise done for the alternative explanation that Fatal Crash corresponds to accidents that result in death, being a subclass of an Injury crash. As more than just a result, the final target variable only has two classes.
   
 ## Dataset Insights
 The dataset is considered from Maryland open information. 
 - Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns were eliminated.
 - There are several categories that numerically correspond identically to other columns. Furthermore, the dataset removes those columns. We are unable to comprehend anything or make any conclusions from some of those numerical columns individually.
-Dataset Link
+
+### Dataset Link
 [opendata.maryland.gov](url)
 There are 56 columns in the dataset. 
 
