@@ -12,10 +12,13 @@ This is the public dataset from the Maryland open information source(https://ope
   
 ## Dataset Insights
 The dataset is considered from Maryland open information. 
+- Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns were eliminated.
+- There are several categories that numerically correspond identically to other columns. Furthermore, the dataset removes those columns. We are unable to comprehend anything or make any conclusions from some of those numerical columns individually.
 Dataset Link
-https://opendata.maryland.gov/widgets/65du-s3qu
+[opendata.maryland.gov](url)
 There are 56 columns in the dataset. 
-Description of columns
+
+## Description of columns
 
 YEAR - Values are from 2016 - 2021
 
