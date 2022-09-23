@@ -12,7 +12,7 @@
   
 ## Dataset Insights
 The dataset is considered from Maryland open information. 
-- Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns were eliminated.
+- Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns will be removed.
 - There are several categories that numerically correspond identically to other columns. Furthermore, the dataset removes those columns. We are unable to comprehend anything or make any conclusions from some of those numerical columns individually.
 
 ### Dataset Link
@@ -132,22 +132,22 @@ LATITUDE - Latitude points.
 LONGITUDE - Longitude points.
 
 LOCATION - combination of latitude and longitude points.
-
-In these columns, there are only null values in 3 columns('MUNI_DESC','RTE_SUFFIX','REFERENCE_SUFFIX) and unknown values in AREA_CODE column. Hence dropped these columns.
-There are some columns that exactly represents other columns numerically. Hence those columns are dropped from the data frame. Because with those numerical columns separately, we neither understand anything nor any insights from those columns.
-
-## I will be addressing the below points in my analysis:
+ 
+## HYPOTHESIS 
+ I will be addressing the below points in my analysis:
 1.	Does Property Damage Crash is the most common report type among all accidents?
 2.	In which month, most accidents happened in?
 3.	At what time, most accidents happened in?
 
-## Implementation of Machine Learning Models:
+## ML MODELS
+These are the Machine Learning Models I could like to Implement:
 1.	Logistic regression
 2.	 Random Forest
 3.	 Decision Tree
 
 ## Expected Outcome:
- Predictions can help insurance agencies to work on respective cases based on type of accidents. 
+ - Based on this ML model results we can predict which type of crashes are occurring.
+ - Predictions can help insurance agencies to work on respective cases based on type of accidents. 
  
 ## References:
 Maryland Statewide Vehicle Crashes | Open Data | [opendata.maryland.gov](url)
