@@ -14,6 +14,11 @@
 The dataset is considered from Maryland open information. 
 - Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns will be removed.
 - There are several categories that numerically correspond identically to other columns. Furthermore, the dataset removes those columns. We are unable to comprehend anything or make any conclusions from some of those numerical columns individually.
+- WEATHER_DESC
+- COUNTY_DESC
+- LIGHT_DESC
+- COLLISION_TYPE_DESC
+- LOCATION
 
 ### Dataset Link
 [opendata.maryland.gov](url)
