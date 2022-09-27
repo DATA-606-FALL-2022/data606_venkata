@@ -17,7 +17,7 @@ The dataset is considered from Maryland open information.
 - I will be using WEATHER_DESC, COUNTY_DESC, LIGHT_DESC, COLLISION_TYPE_DESC, LOCATION in analysis
 
 ## DATASET LINK
-Here is the Dataset link [opendata.maryland.gov](url)
+Here is the Dataset link https://opendata.maryland.gov/widgets/65du-s3qu
 There are 56 columns and 8,22,412 rows in the dataset. 
 
 ## COLUMNS DESCRIPTION 
