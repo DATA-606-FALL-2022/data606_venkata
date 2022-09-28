@@ -1,6 +1,7 @@
 # Project Proposal (Data606)
 # Maryland Statewide Vehicle Crashes
 ## Name: Venkata Satya Praneeth
+![image](https://user-images.githubusercontent.com/103671539/192869586-eae8f619-8dc3-4707-8b35-453e19524c14.png)
 
 
 
@@ -145,6 +146,8 @@ These are the Machine Learning Models I could like to Implement:
 1.	Logistic regression
 2.	 Random Forest
 3.	 Decision Tree
+
+Depending on the type of classification, clustering, and regression, I would like to create various statistics and visualizations, such as accuracy, confusion matrix and ROC curve. I would then choose the model that best fits the data according to its performance, recall, and accuracy.
 
 ## EXPECTED OUTCOME:
  - Based on this ML model results we can predict which type of crashes are occurring.
