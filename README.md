@@ -8,16 +8,16 @@ Youtube video link : https://www.youtube.com/watch?v=b4bxoAH7F5o
 ## Name: Venkata Satya Praneeth
 ![image](https://user-images.githubusercontent.com/103671539/192869586-eae8f619-8dc3-4707-8b35-453e19524c14.png)
 ## INTRODUCTION
-- This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I will utilize Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 8,22,412 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset will be cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
+- This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I utilized Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 8,22,412 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset is cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
 
 ## ABSTRACT
 - I chose "REPORT TYPE" as my target column. There are three classes are represented in the target variable: "Property Damage Crash," "Injury Crash," and "Fatal Crash." To minimize a conflict with multiple classes, those three classes are reduced into two by altering Fatal Crash into Injury Crash. This is likewise done for the alternative explanation that Fatal Crash corresponds to accidents that result in death, being a subclass of an Injury crash. As more than just a result, the final target variable only has two classes.
   
 ## DATASET INSIGHTS
 The dataset is considered from Maryland open information. 
-- Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns will be removed.
+- Only the columns "MUNI DESC," "RTE SUFFIX," and "REFERENCE SUFFIX" have null values, and the column "AREA CODE" has unknown values. So, these columns are removed.
 - There are several categories that numerically correspond identically to other columns. Furthermore, the dataset removes those columns. We are unable to comprehend anything or make any conclusions from some of those numerical columns individually.
-- I will be using WEATHER_DESC, COUNTY_DESC, LIGHT_DESC, COLLISION_TYPE_DESC, LOCATION in analysis
+- I used WEATHER_DESC, COUNTY_DESC, LIGHT_DESC, COLLISION_TYPE_DESC, LOCATION in analysis
 
 ## DATASET LINK
 Here is the Dataset link https://opendata.maryland.gov/widgets/65du-s3qu
@@ -136,3 +136,15 @@ LATITUDE - Latitude points.
 LONGITUDE - Longitude points.
 
 LOCATION - combination of latitude and longitude points.
+
+## ML MODELS
+These are the Machine Learning Models I Implemented:
+1.	Logistic regression
+2.	 Random Forest
+3.	 Decision Tree
+
+Depending on the type of classification, clustering, and regression, I would like to create various statistics and visualizations, such as accuracy, confusion matrix and ROC curve. I chose the model that best fits the data according to its performance, recall, and accuracy.
+
+ 
+## REFRENCES:
+Maryland Statewide Vehicle Crashes | Open Data | [opendata.maryland.gov](url)
