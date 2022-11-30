@@ -6,7 +6,7 @@ Youtube video link : https://www.youtube.com/watch?v=b4bxoAH7F5o
 
 # Maryland Statewide Vehicle Crashes
 ## Name: Venkata Satya Praneeth
-![image](https://user-images.githubusercontent.com/103671539/192869586-eae8f619-8dc3-4707-8b35-453e19524c14.png)
+![image](https://user-images.githubusercontent.com/103671539/204929641-d146ff16-9b72-46be-be28-5421a1a36345.png)
 ## INTRODUCTION
 - This is the public dataset from the Maryland open information source(https://opendata.maryland.gov/). I utilized Jupyter note pad and python language to code. The dataset addresses the vehicle crashes across the Maryland state. This dataset has 8,22,412 rows and 56 columns. These features include the time, place, cause, climate, street type and so forth connected with the mishaps. The dataset is downloaded in CSV format and utilized for the project. The dataset is cleaned by taking care of invalid qualities, missing qualities, and any ill-advised information.
 
@@ -144,6 +144,20 @@ These are the Machine Learning Models I Implemented:
 3.	 Decision Tree
 
 Depending on the type of classification, clustering, and regression, I would like to create various statistics and visualizations, such as accuracy, confusion matrix and ROC curve. I chose the model that best fits the data according to its performance, recall, and accuracy.
+
+## Results and Conclusion
+
+Started with Modeling with three classification algorithms. Logistic regression, Random Forest, Decision Tree. While modeling GridSearchCv is used to find the best parameters of the algorithms. After getting best parameters from the GridSearchCv. If the parameters are changed then those best parameters are used to predict the target variable on the test data. Classification report, accuracy score  is visualized. Roc_auc curve is plotted and area under roc_auc curve is calculated. Using all the results the model performance is compared with other models. The same steps are repeated for all the algorithms.\
+
+
+Finally, got the accuracy of all algorithms. we can observe Logistic regression is performed best among remaining algorithms. Random Forest algorithm is performed least.\ 
+The accuracy of the Decision Tree algorithm is about 73%.
+The accuracy of the logistic regression algorithm is about 73%.
+The accuracy of the random forest algorithm is about 60%. \
+After analyzing the three models, I think Logistic Regression Classifier has ROC_AUC score is 70% can classify better compared to others. We can improve the accuracy by dealing the dataset imbalance through better modeling techniques.
+
+These predictions can help insurance agencies to work on respective cases based on type of accidents.
+
 
  
 ## REFRENCES:
